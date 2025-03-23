@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>homework</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./img/fontawesome-free-6.7.2-web/css/all.css">
 </head>
-<body>
+<body class="max-w-[1300px] m-auto p-5">
+
+    <header>
+        <nav class="flex items-center justify-between">
+            <img src="./img/GetWash.svg" alt="">
+            <div class="lg:flex items-center gap-10 text-[#72727E] hidden">
+                <p>Как использовать</p>
+                <p>Партнерам</p>
+                <p>Скачать</p>
+                <p>Отзывы</p>
+            </div>
+            <button class="py-[10px] px-[30px] text-[#446DF6] bg-[white] border border-gray-500 rounded-md hidden lg:block">Получить доступ</button>
+            <i class="fa-solid fa-bars lg:hidden text-2xl"></i>
+
+        </nav>
+
+        <section class="lg:flex items-center">
+            <aside class="flex flex-col gap-5 items-start">
+                <h2 class="text-3xl font-bold text-center lg:text-start pt-[70px] lg:py-0">Поиск ближайшей свободной автомойки и бронирование
+                    на удобное время.</h2>
+                    <p class="text-center lg:text-start">Мы поможем сохранить ваше время для более интересных занятий, чем стоять в очереди.</p>
+                    <button class="py-[10px] px-[30px] text-white bg-[#446DF6] border border-gray-500 rounded-md hidden lg:block">Получить доступ</button>
+                </aside>
+                <img class="lg:w-[60%]" src="img/iPhone 12 Pro Mockup 1.svg" alt="">
+        </section>
+    </header>
     
 </body>
 </html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
