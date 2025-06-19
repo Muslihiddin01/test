@@ -1,0 +1,26 @@
+body {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+td ,th {
+  text-align: start;
+  padding: 15px;
+  cursor: pointer;
+}
+input, select {
+  border-radius: 5px;
+}
+th {
+  color: gray;
+  background-color: rgba(128, 128, 128, 0.078);
+}
+tr:nth-child(even):hover{
+  background-color: rgba(128, 128, 128, 0.078);
+}
+button {
+  cursor: pointer;
+}
+.css {
+  border-radius: 50px;
+}
